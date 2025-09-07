@@ -5,9 +5,7 @@ from sklearn.model_selection import train_test_split
 import random
 import sys
 
-# random_seed = sys.argv[1]
 random_seed = 999
-# sample = sys.argv[2]
 sample = 'sample5'
 
 def generate_gene_index_df(expression_matrix_path):
@@ -92,7 +90,7 @@ def main(cell_line_name):
 
 
 if __name__ == '__main__':
-    cell_line_name = ['A375', 'A549', 'HEK293T', 'PC3', 'MCF7']
+    cell_line_name = ['A375', 'A549', 'HEK293T', 'PC3']
     for cell_line in cell_line_name:
         main(cell_line)
     print('Done')

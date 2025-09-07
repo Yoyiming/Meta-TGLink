@@ -5,9 +5,7 @@ from sklearn.model_selection import train_test_split
 import random
 import sys
 
-# random_seed = sys.argv[1]
 random_seed = 2024
-# sample = sys.argv[2]
 sample = 'sample3'
 
 def generate_gene_index_df(expression_matrix_path):

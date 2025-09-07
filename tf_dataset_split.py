@@ -3,7 +3,7 @@ import random
 
 random.seed(2024)
 
-cell_lines = ['A549', 'A375', 'HEK293T', 'PC3', 'MCF7']
+cell_lines = ['A549', 'A375', 'HEK293T', 'PC3']
 samples = ['sample1', 'sample2', 'sample3', 'sample4', 'sample5']
 for sample in samples:
     for cell_line in cell_lines:
