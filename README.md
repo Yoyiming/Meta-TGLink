@@ -52,7 +52,8 @@ conda env create -f environment.yml
 ```text
 Meta-TGLink/
 ├── cell_line_dataset/          # Training and Testing sets
-├── expression_matrix/          # Expression matrix for cell line or cell type datasets
+├── expression matrix/          # Expression matrix for cell line or cell type datasets
+├── indirected network/         # The high-confidence ground truth gene regulatory networks (GRNs) that we constructed for four human cell lines
 ├── model.py                    # Meta-TGLink architecture
 ├── dataset.py                  # Meta Dataset for constructing meta-tasks
 ├── train_cross_cell_line.py    # Training codes for cross-cell line GRN inference
